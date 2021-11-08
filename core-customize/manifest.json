@@ -1,5 +1,5 @@
 {
-    "commerceSuiteVersion": "2005",
+    "commerceSuiteVersion": "2011",
     "enableImageProcessingService": true,
     "extensions": [
         "cloudmediaconversion",  
@@ -51,6 +51,11 @@
         }
     ],
     "storefrontAddons": [
+        {
+            "addon": "assistedservicestorefront",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
         {
             "addon": "spartacussampledataaddon",
             "storefront": "yacceleratorstorefront",
