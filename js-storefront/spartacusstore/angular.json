@@ -24,9 +24,6 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-              "glob": "**/*",
-              "input": "node_modules/@spartacus/smartedit/assets",
-              "output": "assets/"
               "src/favicon.ico",
               "src/assets",
               "src/manifest.webmanifest"
